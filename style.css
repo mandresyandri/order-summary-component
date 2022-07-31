@@ -30,18 +30,16 @@ img {
 }
 
 .container {
-    /* border-style: solid; */
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 400px;
-    margin-top: 7%;
-    margin-bottom: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 /* Ok for top content */
 .top-content { 
-    /* border-style:solid; */
     width: 400px;
     height: auto;
 }
@@ -50,10 +48,8 @@ img {
     margin-top: -7px;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    /* border-style: solid; */
     background-color: white;
     display: flex;
-    padding: 20px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -74,25 +70,20 @@ h1 {
     font-size: 1em;
 }
 
-
 .box-display-price {
     background-color: hsl(225, 100%, 98%);
     border-radius: 12px;
     display: flex;
     flex-direction: row;
-    width: 50%;
-    width: 300px;
-    height: 80px;
-    margin-bottom: 10%;
+    width: 350px;
+    height: 95px;
+    margin-bottom: 7%;
 }
-/* .a-link{
-    margin-left: ;
-} */
 
 .box-svg {
     padding: 15px;
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
 }
 
 ul {
@@ -103,15 +94,20 @@ ul {
 
 .title-4 {
     font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 9px;
 }
 
 .product-price {
     color: hsl(224, 23%, 55%);
+    font-size: 1em;
 }
 
 .a-link{
-    margin-top: 26px;
-    margin-left: 60px;
+    margin-top: 34px;
+    margin-left: 90px;
+    font-size: 1em;
+    font-weight: bold;
 }
 
 a.a-link:hover {
@@ -130,6 +126,8 @@ button {
     border-radius: 12px;
     width: 90%;
     box-shadow: 2%;
+    font-size: 1em;
+    box-shadow: 0px 15px 20px #9f9bd4;
 }
 
 
@@ -149,6 +147,8 @@ button:hover {
     color: hsl(224, 23%, 55%);
     text-decoration: none;
     font-weight: bold;
+    font-size: 1em;
+    margin-bottom: 20px;
 }
 
 .cancel:hover {
@@ -160,5 +160,46 @@ button:hover {
 @media screen and (max-width: 600px) {
     body{
         background-image: url(/images/pattern-background-mobile.svg);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
+
+    .container {
+        margin-top: 2%;
+        align-items: center;
+        width: 350px;
+    }
+
+    img {
+        width: 360px;
+        margin-left: 5%;
+        height: auto;
+    }
+
+    .bottom-content {
+        width: 360px;
+    }
+
+    .box-display-price {
+        width: 300px;
+        height: 80px;
+    }
+
+    .box-svg {
+        margin-left: -1%;
+        height: 50px;
+        width: 50px;
+    }
+
+    .title-4 {
+        font-size: 0.9em;
+    }
+
+    .a-link{
+        margin-top: 34px;
+        margin-left: 70px;
+        font-size: 0.9em;
+    }
+    
 }
