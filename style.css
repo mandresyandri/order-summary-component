@@ -35,6 +35,8 @@ img {
     flex-direction: column;
     align-items: center;
     width: 400px;
+    margin-top: 7%;
+    margin-bottom: 2%;
 }
 
 /* Ok for top content */
@@ -49,7 +51,7 @@ img {
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
     /* border-style: solid; */
-    background-color: coral;
+    background-color: white;
     display: flex;
     padding: 20px;
     flex-direction: column;
@@ -57,7 +59,12 @@ img {
     justify-content: center;
 }
 
+h1 {
+    color: hsl(223, 47%, 23%);
+}
+
 .paragraph {
+    color: hsl(224, 23%, 55%);
     line-height: 1.6em;
     justify-content: center;
     text-align: center;
@@ -67,15 +74,48 @@ img {
     font-size: 1em;
 }
 
+
 .box-display-price {
-    background-color: hsl(225, 100%, 94%);
+    background-color: hsl(225, 100%, 98%);
     border-radius: 12px;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
     width: 50%;
-    border: solid;
-    width: 350px;
-    height: 100px;
+    width: 300px;
+    height: 80px;
     margin-bottom: 10%;
+}
+/* .a-link{
+    margin-left: ;
+} */
+
+.box-svg {
+    padding: 15px;
+    height: 50px;
+    width: 50px;
+}
+
+ul {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: -40px;
+}
+
+.title-4 {
+    font-weight: bold;
+}
+
+.product-price {
+    color: hsl(224, 23%, 55%);
+}
+
+.a-link{
+    margin-top: 26px;
+    margin-left: 60px;
+}
+
+a.a-link:hover {
+    text-decoration: none;
 }
 
 button {
@@ -92,13 +132,28 @@ button {
     box-shadow: 2%;
 }
 
+
+button:hover {
+    background-color: #726bee;
+}
+
 .bottom-element {
-    background-color: red;
-    border-style: solid;
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: center; */
+    width: 100%;
+}
+
+.cancel {
+    margin-top: 20px;
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cancel:hover {
+    color: hsl(223, 47%, 23%);
+    font-weight: bold;
 }
 
 /* Mobile responsive  */
