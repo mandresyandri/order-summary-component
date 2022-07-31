@@ -18,10 +18,10 @@ I'm playing with several languages :
 
 ## About this repo 
 <b>Challenge of the week !</b><br>
-This is the second challenge that I made to build my own protefolio. <br> You can see here [last week's challenge](https://github.com/mandresyandri/qr-code-page).<br>
+This is the second challenge that I made to build my own protefolio. <br> You can see here [last challenge](https://github.com/mandresyandri/product-preview-page).<br>
 
-In this repo I upload all file of [this challenge](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa) of Frontend Mentor.
-It's a part of my portefolio and this challenge is hosted in [vercel]
+In this repo I upload all file of [this challenge](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj) from Frontend Mentor.
+It's a part of my portefolio and this challenge is hosted in [vercel](https://vercel.com/)
 
 
 ## Some remarks or advices ?
